@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <pre>
+        <code>
+            public class UseFactSum {
+                public static void main(String[] args) {
+                    Scanner kb=new Scanner(System.in);
+                    int n;
+                    System.out.println("Enter a number:");
+                    n=kb.nextInt();
+                    int sum=0;
+                    FactSum obj=new FactSum();
+                    for(int i=1;i<=n;i++)
+                    {
+                        sum=sum+ obj.fact(i);
+                    }
+                    System.out.println("Sum of Factorial="+sum);
+                }
+        </code>
+     </pre>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
